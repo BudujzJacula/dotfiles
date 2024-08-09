@@ -1,0 +1,2 @@
+#binding = [
+#{ key = "Q", mods = "Control", chars = "/x11" } ]

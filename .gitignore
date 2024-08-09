@@ -1,0 +1,6 @@
+.config/Code/logs/
+.config/Code/User/History
+.config/Code/GPUCache
+.config/Code/CachedData
+.config/Code/CachedExtensionVSIXs
+.config/Code/CachedProfileData

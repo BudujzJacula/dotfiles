@@ -1,0 +1,15 @@
+[
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-enter": "editor::NewlineBelow"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-alt-;": "workspace::ActivateNextPane",
+      "cmd-alt-j": "workspace::ActivatePreviousPane"
+    }
+  }
+]
