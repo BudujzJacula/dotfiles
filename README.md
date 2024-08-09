@@ -26,6 +26,19 @@ then use GNU stow to create symlinks
 stow .
 '''
 
+## Known bugs
+In nvim and allacritty there are a subrepos for themes and Kickstart for nvim.
+
+### Nvim Kickstart
+'''
+https://github.com/nvim-lua/kickstart.nvim
+'''
+
+### Allacritty themes
+'''
+https://github.com/alacritty/alacritty-theme
+'''
+
 ## Source
 Based on this tutorial
 '''
