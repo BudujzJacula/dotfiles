@@ -4,3 +4,11 @@
 .config/Code/CachedData
 .config/Code/CachedExtensionVSIXs
 .config/Code/CachedProfileData
+.config/Code/Cache
+.config/Code/CachedConfigurations
+.config/Code/CachedProfilesData
+.config/Code/Code Cache
+.config/Code/Cookies
+.config/Code/Crashpad
+.config/Code/DawnCache
+config/Code/WebStorage

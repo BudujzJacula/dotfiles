@@ -1,0 +1,114 @@
+{
+    "remote.SSH.remotePlatform": {
+        "192.168.0.210": "linux",
+        "192.168.1.15": "linux",
+        "192.168.1.10": "linux",
+        "192.168.1.14": "linux",
+        "192.168.0.77": "linux",
+        "192.168.1.8": "linux",
+        "192.168.1.4": "linux",
+        "192.168.1.11": "linux",
+        "192.168.1.143": "linux"
+    },
+    "todo-tree.highlights.defaultHighlight": {
+        "icon": "alert",
+        "type": "text",
+        "foreground": "#ffffff",
+        "background": "#000000",
+        "opacity": 50,
+        "iconColour": "#801c7e"
+    },
+    "todo-tree.highlights.customHighlight": {
+        "TODO": {
+            "foreground": "#ffffff",
+            "background": "#00ff00",
+            "iconColour": "#00ff00",
+            "gutterIcon": true
+        },
+        "BUG": {
+            "foreground": "#ffffff",
+            "background": "#ff0000",
+            "iconColour": "#ff0000",
+            "gutterIcon": true
+        },
+        "HACK": {
+            "icon": "tools"
+        },
+        "FIXME": {
+            "foreground": "#000000",
+            "background": "#ffff00",
+            "iconColour": "#ffff00",
+            "gutterIcon": true
+        },
+        "XXX": {
+            "icon": "$(close)"
+        }
+    },
+    "explorer.confirmDragAndDrop": false,
+    "javascript.suggest.autoImports": false,
+    "python.analysis.autoImportCompletions": false,
+    "editor.minimap.enabled": false,
+    "picowgo.statusbarButtons": [
+        "status",
+        "run",
+        "softreset",
+        "'upload'"
+    ],
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "editor.inlineSuggest.enabled": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "explorer.confirmDelete": false,
+    "editor.lineNumbers": "relative",
+    "workbench.quickOpen.closeOnFocusLost": false,
+    "terminal.integrated.fontFamily": "monospace",
+    "workbench.sideBar.location": "right",
+    "platformio-ide.toolbar": [
+
+        {
+            "text": "$(home)",
+            "tooltip": "PlatformIO: Home",
+            "commands": "platformio-ide.showHome"
+        },
+        {
+            "text": "$(check)",
+            "tooltip": "PlatformIO: Build",
+            "commands": "platformio-ide.build"
+        },
+        {
+            "text": "$(arrow-right)",
+            "tooltip": "PlatformIO: Upload",
+            "commands": "platformio-ide.upload"
+        },
+        {
+            "text": "$(plug)",
+            "tooltip": "PlatformIO: Serial Monitor",
+            "commands": "platformio-ide.serialMonitor"
+        }
+    ],
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.quickSuggestions": {
+        "comments": "on",
+        "strings": "on"
+    },
+    "workbench.editor.editorActionsLocation": "default",
+    "cloudcode.duetAI.project": "balancing-robot-408121",
+    "editor.guides.indentation": false,
+    "editor.renderWhitespace": "none",
+    "editor.renderLineHighlight": "none",
+    "breadcrumbs.filePath": "off",
+    "breadcrumbs.enabled": false,
+    "todo-tree.general.showActivityBarBadge": true,
+    "workbench.activityBar.location": "hidden",
+    "workbench.layoutControl.enabled": false,
+    "window.commandCenter": false,
+    "window.menuBarVisibility": "toggle",
+    "workbench.colorTheme": "One Dark Pro Flat",
+    "editor.cursorBlinking": "solid",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "workbench.editor.showTabs": "none",
+    "errorLens.messageBackgroundMode": "message",
+    "git.openRepositoryInParentFolders": "never",
+    "files.autoSave": "afterDelay"
+}

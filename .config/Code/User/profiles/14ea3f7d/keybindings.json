@@ -1,0 +1,55 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+alt+g",
+        "command": "workbench.action.gotoLine"
+    },
+    {
+        "key": "ctrl+g",
+        "command": "-workbench.action.gotoLine"
+    },
+    {
+        "key": "ctrl+g",
+        "command": "extension.relativeGoto",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+g",
+        "command": "-extension.relativeGoto",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+g",
+        "command": "relative-goto.goto"
+    },
+    {
+        "key": "alt+g",
+        "command": "-relative-goto.goto"
+    },
+    {
+        "key": "ctrl+alt+y",
+        "command": "platformio-ide.upload",
+        "when": "pioProjectReady && pioProjectTasksReady"
+    },
+    {
+        "key": "ctrl+alt+u",
+        "command": "-platformio-ide.upload",
+        "when": "pioProjectReady && pioProjectTasksReady"
+    },
+    {
+        "key": "ctrl+q",
+        "command": "-workbench.action.quit"
+    },
+    {
+        "key": "ctrl+q",
+        "command": "workbench.action.quickOpenView"
+    },
+    { 
+        "key": "alt+left",        
+        "command": "workbench.action.navigateBack" 
+    },
+    { 
+        "key": "alt+right",       
+        "command": "workbench.action.navigateForward" 
+    }
+]
