@@ -16,7 +16,8 @@
             "file:///home/jaca/Documents/sim_racing_hub": "14ea3f7d",
             "file:///home/jaca/Documents/motorcontroller-master": "14ea3f7d",
             "vscode-remote://ssh-remote%2B192.168.1.27/c%3A/Users/ms_embedded/motor_controller": "14ea3f7d",
-            "file:///home/jaca/Documents/python_limit_log_size": "14ea3f7d"
+            "file:///home/jaca/Documents/python_limit_log_size": "14ea3f7d",
+            "file:///home/jaca/Documents/dyspenser_prototyp": "14ea3f7d"
         },
         "emptyWindows": {}
     },
@@ -28,7 +29,7 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/jaca/Documents/python_limit_log_size"
+                "folderUri": "file:///home/jaca/Documents/dyspenser_prototyp"
             }
         ],
         "emptyWindows": []
@@ -61,6 +62,13 @@
                                 {
                                     "id": "workbench.action.openProfile.json_pecet 2",
                                     "label": "json_pecet 2"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "workbench.profiles.actions.createProfile",
+                                    "label": "New Profile..."
                                 }
                             ]
                         }
@@ -87,11 +95,21 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor",
-                                    "enabled": false
+                                    "label": "&&Reopen Closed Editor"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/jaca/Documents/dyspenser_prototyp",
+                                        "path": "/home/jaca/Documents/dyspenser_prototyp",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/dyspenser_prototyp"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -194,18 +212,18 @@
                                     "label": "~/Documents/valves_testing_poc/src/valves_testing_poc (Workspace)"
                                 },
                                 {
-                                    "id": "openRecentFolder",
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///run/media/jaca/D098-07EF/mindsailors-valves_testing_poc-05b4e4d6f596",
-                                        "path": "/run/media/jaca/D098-07EF/mindsailors-valves_testing_poc-05b4e4d6f596",
+                                        "external": "file:///home/jaca/Documents/smogometr/README.md",
+                                        "path": "/home/jaca/Documents/smogometr/README.md",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "/run/media/jaca/D098-07EF/mindsailors-valves_testing_poc-05b4e4d6f596"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
+                                    "label": "~/Documents/smogometr/README.md"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -307,17 +325,6 @@
                                     "label": "~/Downloads/20240604_Report_wetdispenser.txt"
                                 },
                                 {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/jaca/Documents/sim_racing_hub/src/main.cpp",
-                                        "path": "/home/jaca/Documents/sim_racing_hub/src/main.cpp",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Documents/sim_racing_hub/src/main.cpp"
-                                },
-                                {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
@@ -362,8 +369,7 @@
                     },
                     {
                         "id": "saveAll",
-                        "label": "Save A&&ll",
-                        "enabled": false
+                        "label": "Save A&&ll"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -427,7 +433,7 @@
                                             },
                                             {
                                                 "id": "workbench.profiles.actions.createProfile",
-                                                "label": "Create Profile..."
+                                                "label": "New Profile..."
                                             },
                                             {
                                                 "id": "workbench.profiles.actions.deleteProfile",
@@ -461,11 +467,11 @@
                                 },
                                 {
                                     "id": "workbench.action.openSnippets",
-                                    "label": "Configure User Snippets"
+                                    "label": "Configure Snippets"
                                 },
                                 {
                                     "id": "workbench.action.tasks.openUserTasks",
-                                    "label": "User Tasks"
+                                    "label": "Tasks"
                                 },
                                 {
                                     "id": "submenuitem.ThemesSubMenu",
@@ -765,9 +771,8 @@
                                     "submenu": {
                                         "items": [
                                             {
-                                                "id": "workbench.action.positionPanelBottom",
-                                                "label": "Bottom",
-                                                "checked": true
+                                                "id": "workbench.action.positionPanelTop",
+                                                "label": "Top"
                                             },
                                             {
                                                 "id": "workbench.action.positionPanelLeft",
@@ -776,6 +781,11 @@
                                             {
                                                 "id": "workbench.action.positionPanelRight",
                                                 "label": "Right"
+                                            },
+                                            {
+                                                "id": "workbench.action.positionPanelBottom",
+                                                "label": "Bottom",
+                                                "checked": true
                                             }
                                         ]
                                     }
@@ -1033,8 +1043,7 @@
                     },
                     {
                         "id": "workbench.action.navigateForward",
-                        "label": "&&Forward",
-                        "enabled": false
+                        "label": "&&Forward"
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
@@ -1257,8 +1266,7 @@
                     },
                     {
                         "id": "workbench.action.debug.configure",
-                        "label": "Open &&Configurations",
-                        "enabled": false
+                        "label": "Open &&Configurations"
                     },
                     {
                         "id": "debug.addConfiguration",
@@ -1384,18 +1392,15 @@
                     },
                     {
                         "id": "workbench.action.tasks.showTasks",
-                        "label": "Show Runnin&&g Tasks...",
-                        "enabled": false
+                        "label": "Show Runnin&&g Tasks..."
                     },
                     {
                         "id": "workbench.action.tasks.restartTask",
-                        "label": "R&&estart Running Task...",
-                        "enabled": false
+                        "label": "R&&estart Running Task..."
                     },
                     {
                         "id": "workbench.action.tasks.terminate",
-                        "label": "&&Terminate Task...",
-                        "enabled": false
+                        "label": "&&Terminate Task..."
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1848,10 +1853,6 @@
                 "label": "Shift+F12",
                 "userSettingsLabel": "shift+f12"
             },
-            "workbench.action.gotoLine": {
-                "label": "Ctrl+Alt+G",
-                "userSettingsLabel": "ctrl+alt+g"
-            },
             "editor.action.jumpToBracket": {
                 "label": "Ctrl+Shift+\\",
                 "userSettingsLabel": "ctrl+shift+\\"
@@ -1958,14 +1959,14 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/jaca/Documents/python_limit_log_size",
-            "backupPath": "/home/jaca/.config/Code/Backups/1b5526cd2b86d5a1aa80cc66b95238f5",
+            "folder": "file:///home/jaca/Documents/dyspenser_prototyp",
+            "backupPath": "/home/jaca/.config/Code/Backups/d042b0cb1c89a8fb5ffe60f99c07d85b",
             "uiState": {
                 "mode": 1,
-                "x": 2722,
-                "y": 892,
+                "x": 1282,
+                "y": 4,
                 "width": 1274,
-                "height": 1432
+                "height": 714
             }
         },
         "openedWindows": []

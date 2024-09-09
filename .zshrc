@@ -58,6 +58,7 @@ alias ls='ls --color'
 alias vim='nvim'
 alias c='clear'
 alias ssh="TERM=xterm-256color ssh"
+alias zed='/home/jaca/.local/bin/zed'
 
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
@@ -81,7 +82,7 @@ function yy() {
 
 bindkey '^[[1;5C' forward-word
 bindkey '^[[1;5D' backward-word
-bindkey '^[[1;5H' beginning-of-line
-bindkey '^[[1;5F' end-of-line
+bindkey '^[[H' beginning-of-line
+bindkey '^[[F' end-of-line
 bindkey  "^[[3~"  delete-char
 

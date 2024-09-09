@@ -1,3 +1,4 @@
 {
-    "window.menuBarVisibility": "toggle"
+    "window.menuBarVisibility": "toggle",
+    "cmake.showOptionsMovedNotification": false
 }
