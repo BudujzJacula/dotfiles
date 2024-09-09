@@ -11,4 +11,8 @@
 .config/Code/Cookies
 .config/Code/Crashpad
 .config/Code/DawnCache
-config/Code/WebStorage
+.config/Code/WebStorage
+.config/Code/Local Storage
+.config/Code/Network Persistent State
+.config/Code/Service Worker
+.config/Code/Session Storage
