@@ -17,7 +17,9 @@
             "file:///home/jaca/Documents/motorcontroller-master": "14ea3f7d",
             "vscode-remote://ssh-remote%2B192.168.1.27/c%3A/Users/ms_embedded/motor_controller": "14ea3f7d",
             "file:///home/jaca/Documents/python_limit_log_size": "14ea3f7d",
-            "file:///home/jaca/Documents/dyspenser_prototyp": "14ea3f7d"
+            "file:///home/jaca/Documents/dyspenser_prototyp": "14ea3f7d",
+            "file:///home/jaca/Documents/rc_excavator/rc_excavator.code-workspace": "14ea3f7d",
+            "file:///home/jaca/Documents/rc_excavator": "14ea3f7d"
         },
         "emptyWindows": {}
     },
@@ -29,7 +31,7 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/jaca/Documents/dyspenser_prototyp"
+                "folderUri": "file:///home/jaca/Documents/rc_excavator"
             }
         ],
         "emptyWindows": []
@@ -56,7 +58,7 @@
                         "submenu": {
                             "items": [
                                 {
-                                    "id": "workbench.action.openProfile.default",
+                                    "id": "workbench.action.openProfile.Default",
                                     "label": "Default"
                                 },
                                 {
@@ -95,10 +97,33 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/jaca/Documents/rc_excavator",
+                                        "path": "/home/jaca/Documents/rc_excavator",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/rc_excavator"
+                                },
+                                {
+                                    "id": "openRecentWorkspace",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/jaca/Documents/rc_excavator/rc_excavator.code-workspace",
+                                        "path": "/home/jaca/Documents/rc_excavator/rc_excavator.code-workspace",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/rc_excavator/rc_excavator (Workspace)"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -188,28 +213,6 @@
                                     },
                                     "enabled": true,
                                     "label": "~/Downloads"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/jaca/Downloads/sim_racing_hub",
-                                        "path": "/home/jaca/Downloads/sim_racing_hub",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Downloads/sim_racing_hub"
-                                },
-                                {
-                                    "id": "openRecentWorkspace",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/jaca/Documents/valves_testing_poc/src/valves_testing_poc.code-workspace",
-                                        "path": "/home/jaca/Documents/valves_testing_poc/src/valves_testing_poc.code-workspace",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Documents/valves_testing_poc/src/valves_testing_poc (Workspace)"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -369,7 +372,8 @@
                     },
                     {
                         "id": "saveAll",
-                        "label": "Save A&&ll"
+                        "label": "Save A&&ll",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -382,10 +386,6 @@
                                 {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (json_pecet 2)..."
-                                },
-                                {
-                                    "id": "workbench.profiles.actions.importProfile",
-                                    "label": "Import Profile..."
                                 }
                             ]
                         }
@@ -404,54 +404,8 @@
                         "submenu": {
                             "items": [
                                 {
-                                    "id": "submenuitem.Profiles",
-                                    "label": "Profile (json_pecet 2)",
-                                    "submenu": {
-                                        "items": [
-                                            {
-                                                "id": "workbench.profiles.actions.profileEntry.__default__profile__",
-                                                "label": "Default"
-                                            },
-                                            {
-                                                "id": "workbench.profiles.actions.profileEntry.14ea3f7d",
-                                                "label": "json_pecet 2",
-                                                "checked": true
-                                            },
-                                            {
-                                                "id": "vscode.menubar.separator"
-                                            },
-                                            {
-                                                "id": "workbench.profiles.actions.editCurrentProfile",
-                                                "label": "Edit Profile..."
-                                            },
-                                            {
-                                                "id": "workbench.profiles.actions.showProfileContents",
-                                                "label": "Show Profile Contents"
-                                            },
-                                            {
-                                                "id": "vscode.menubar.separator"
-                                            },
-                                            {
-                                                "id": "workbench.profiles.actions.createProfile",
-                                                "label": "New Profile..."
-                                            },
-                                            {
-                                                "id": "workbench.profiles.actions.deleteProfile",
-                                                "label": "Delete Profile..."
-                                            },
-                                            {
-                                                "id": "vscode.menubar.separator"
-                                            },
-                                            {
-                                                "id": "workbench.profiles.actions.exportProfile",
-                                                "label": "Export Profile..."
-                                            },
-                                            {
-                                                "id": "workbench.profiles.actions.importProfile",
-                                                "label": "Import Profile..."
-                                            }
-                                        ]
-                                    }
+                                    "id": "workbench.profiles.actions.manageProfiles",
+                                    "label": "&&Profiles"
                                 },
                                 {
                                     "id": "workbench.action.openSettings",
@@ -718,7 +672,8 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "&&Primary Side Bar"
+                                    "label": "&&Primary Side Bar",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleAuxiliaryBar",
@@ -1043,7 +998,8 @@
                     },
                     {
                         "id": "workbench.action.navigateForward",
-                        "label": "&&Forward"
+                        "label": "&&Forward",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
@@ -1392,15 +1348,18 @@
                     },
                     {
                         "id": "workbench.action.tasks.showTasks",
-                        "label": "Show Runnin&&g Tasks..."
+                        "label": "Show Runnin&&g Tasks...",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.tasks.restartTask",
-                        "label": "R&&estart Running Task..."
+                        "label": "R&&estart Running Task...",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.tasks.terminate",
-                        "label": "&&Terminate Task..."
+                        "label": "&&Terminate Task...",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1952,21 +1911,21 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 0,
-            "sideBarWidth": 0,
+            "sideBarWidth": 300,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/jaca/Documents/dyspenser_prototyp",
-            "backupPath": "/home/jaca/.config/Code/Backups/d042b0cb1c89a8fb5ffe60f99c07d85b",
+            "folder": "file:///home/jaca/Documents/rc_excavator",
+            "backupPath": "/home/jaca/.config/Code/Backups/7d59e66d589e1f5cae54e0f170966fde",
             "uiState": {
                 "mode": 1,
                 "x": 1282,
                 "y": 4,
                 "width": 1274,
-                "height": 714
+                "height": 1432
             }
         },
         "openedWindows": []

@@ -59,6 +59,7 @@ alias vim='nvim'
 alias c='clear'
 alias ssh="TERM=xterm-256color ssh"
 alias zed='/home/jaca/.local/bin/zed'
+alias arduino='/home/jaca/Documents/arduino-ide_2.3.2_Linux_64bit.AppImage > /dev/null 2>&1 & disown'
 
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall

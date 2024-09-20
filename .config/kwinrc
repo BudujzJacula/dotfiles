@@ -22,7 +22,7 @@ padding=4
 tiles={"layoutDirection":"horizontal","tiles":[]}
 
 [Tiling][3294c798-90e7-51ab-953d-558fb261a53f]
-tiles={"layoutDirection":"horizontal","tiles":[{"width":0.5},{"layoutDirection":"vertical","tiles":[{"height":0.5},{"height":0.5}],"width":0.5}]}
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.5},{"width":0.5}]}
 
 [Tiling][f96f1ade-ba62-573c-9fa0-8dead3326b25]
 tiles={"layoutDirection":"vertical","tiles":[]}
