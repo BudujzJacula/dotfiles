@@ -2,9 +2,10 @@
     "userDataProfilesMigration": true,
     "profileAssociations": {
         "workspaces": {
+            "file:///home/jaca/Documents/valves_testing_poc": "__default__profile__",
+            "file:///home/jaca/.config/Code/Workspaces/1734354534302/workspace.json": "__default__profile__",
             "file:///home/jaca/Downloads/mindsailors-valves_testing_poc-05b4e4d6f596": "14ea3f7d",
             "file:///home/jaca/Downloads/mindsailors-valves_testing_poc-05b4e4d6f596/valves_testing_poc.code-workspace": "14ea3f7d",
-            "file:///home/jaca/Documents/valves_testing_poc": "__default__profile__",
             "file:///home/jaca/Documents/valves_testing_poc/valves_testing_poc.code-workspace": "14ea3f7d",
             "file:///run/media/jaca/D098-07EF/mindsailors-valves_testing_poc-05b4e4d6f596": "14ea3f7d",
             "file:///home/jaca/Documents/valves_testing_poc/src/valves_testing_poc.code-workspace": "14ea3f7d",
@@ -13,13 +14,28 @@
             "file:///home/jaca/Documents/termometr": "14ea3f7d",
             "file:///home/jaca/Documents/log_reducer/workspace.code-workspace": "14ea3f7d",
             "file:///home/jaca/qmk_firmware/keyboards/4x5_keypad": "14ea3f7d",
-            "file:///home/jaca/Documents/sim_racing_hub": "14ea3f7d",
             "file:///home/jaca/Documents/motorcontroller-master": "14ea3f7d",
             "vscode-remote://ssh-remote%2B192.168.1.27/c%3A/Users/ms_embedded/motor_controller": "14ea3f7d",
             "file:///home/jaca/Documents/python_limit_log_size": "14ea3f7d",
-            "file:///home/jaca/Documents/dyspenser_prototyp": "14ea3f7d",
             "file:///home/jaca/Documents/rc_excavator/rc_excavator.code-workspace": "14ea3f7d",
-            "file:///home/jaca/Documents/rc_excavator": "14ea3f7d"
+            "file:///home/jaca/Documents/rc_excavator": "14ea3f7d",
+            "file:///home/jaca/Documents/dyspenser_prototyp": "14ea3f7d",
+            "file:///home/jaca/Documents/sim_racing_hub": "14ea3f7d",
+            "file:///home/jaca/python_dashboard": "14ea3f7d",
+            "file:///home/jaca/Documents/rc_excavator_arduino_ide": "14ea3f7d",
+            "file:///home/jaca/Documents/hello": "14ea3f7d",
+            "file:///home/jaca/Documents/go-server": "14ea3f7d",
+            "file:///home/jaca/Documents/web-service-gin": "14ea3f7d",
+            "file:///run/media/jaca/D36D-22A4/C_kurs/Part%202": "14ea3f7d",
+            "file:///run/media/jaca/D36D-22A4/C_kurs": "14ea3f7d",
+            "file:///home/jaca/Documents/C_kurs": "14ea3f7d",
+            "file:///home/jaca/Documents/pi-spi-display": "14ea3f7d",
+            "vscode-remote://ssh-remote%2B192.168.1.60/home/admin/Documents/it8951e_c_driver": "14ea3f7d",
+            "file:///home/jaca/Documents/pw_screengrabber": "14ea3f7d",
+            "file:///home/jaca/Documents/pi-spi-display/src": "14ea3f7d",
+            "vscode-remote://ssh-remote%2B192.168.1.60/home/admin/Documents/IT8951": "14ea3f7d",
+            "file:///home/jaca/.config/Code/Workspaces/1734532842329/workspace.json": "14ea3f7d",
+            "file:///home/jaca": "14ea3f7d"
         },
         "emptyWindows": {}
     },
@@ -28,10 +44,16 @@
     "telemetry.machineId": "7d7a3a25671c20c4b66ed0639fe489607d822c8cde53b67cdb7e6b021872bc53",
     "telemetry.devDeviceId": "f9e15154-561e-4d58-b95e-436f6cca53eb",
     "backupWorkspaces": {
-        "workspaces": [],
+        "workspaces": [
+            {
+                "id": "1c4fda47811bbd96ba97302c3306a154",
+                "configURIPath": "file:///home/jaca/.config/Code/Workspaces/1734532842329/workspace.json",
+                "remoteAuthority": "ssh-remote+192.168.1.60"
+            }
+        ],
         "folders": [
             {
-                "folderUri": "file:///home/jaca/Documents/rc_excavator"
+                "folderUri": "file:///home/jaca"
             }
         ],
         "emptyWindows": []
@@ -107,112 +129,113 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/jaca/Documents/rc_excavator",
-                                        "path": "/home/jaca/Documents/rc_excavator",
+                                        "external": "file:///home/jaca",
+                                        "path": "/home/jaca",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Documents/rc_excavator"
-                                },
-                                {
-                                    "id": "openRecentWorkspace",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/jaca/Documents/rc_excavator/rc_excavator.code-workspace",
-                                        "path": "/home/jaca/Documents/rc_excavator/rc_excavator.code-workspace",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Documents/rc_excavator/rc_excavator (Workspace)"
+                                    "label": "/home/jaca"
                                 },
                                 {
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/jaca/Documents/dyspenser_prototyp",
-                                        "path": "/home/jaca/Documents/dyspenser_prototyp",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Documents/dyspenser_prototyp"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/jaca/Documents/python_limit_log_size",
-                                        "path": "/home/jaca/Documents/python_limit_log_size",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Documents/python_limit_log_size"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "path": "/c:/Users/ms_embedded/motor_controller",
+                                        "path": "/home/admin/Documents/IT8951",
                                         "scheme": "vscode-remote",
-                                        "authority": "ssh-remote+192.168.1.27"
+                                        "authority": "ssh-remote+192.168.1.60"
                                     },
-                                    "remoteAuthority": "ssh-remote+192.168.1.27",
+                                    "remoteAuthority": "ssh-remote+192.168.1.60",
                                     "enabled": true,
-                                    "label": "C:\\Users\\ms_embedded\\motor_controller [SSH: 192.168.1.27]"
+                                    "label": "~/Documents/IT8951 [SSH: 192.168.1.60]"
                                 },
                                 {
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/jaca/Documents/sim_racing_hub",
-                                        "path": "/home/jaca/Documents/sim_racing_hub",
+                                        "external": "file:///home/jaca/Documents/pi-spi-display/src",
+                                        "path": "/home/jaca/Documents/pi-spi-display/src",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Documents/sim_racing_hub"
+                                    "label": "/home/jaca/Documents/pi-spi-display/src"
                                 },
                                 {
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/jaca/qmk_firmware/keyboards/4x5_keypad",
-                                        "path": "/home/jaca/qmk_firmware/keyboards/4x5_keypad",
-                                        "scheme": "file"
+                                        "path": "/home/admin/Documents/it8951e_c_driver",
+                                        "scheme": "vscode-remote",
+                                        "authority": "ssh-remote+192.168.1.60"
                                     },
+                                    "remoteAuthority": "ssh-remote+192.168.1.60",
                                     "enabled": true,
-                                    "label": "~/qmk_firmware/keyboards/4x5_keypad"
-                                },
-                                {
-                                    "id": "openRecentWorkspace",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/jaca/Documents/log_reducer/workspace.code-workspace",
-                                        "path": "/home/jaca/Documents/log_reducer/workspace.code-workspace",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Documents/log_reducer/workspace (Workspace)"
+                                    "label": "~/Documents/it8951e_c_driver [SSH: 192.168.1.60]"
                                 },
                                 {
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/jaca/Documents/termometr",
-                                        "path": "/home/jaca/Documents/termometr",
+                                        "external": "file:///home/jaca/Documents/pw_screengrabber",
+                                        "path": "/home/jaca/Documents/pw_screengrabber",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Documents/termometr"
+                                    "label": "/home/jaca/Documents/pw_screengrabber"
                                 },
                                 {
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/jaca/Downloads",
-                                        "path": "/home/jaca/Downloads",
+                                        "external": "file:///home/jaca/Documents/pi-spi-display",
+                                        "path": "/home/jaca/Documents/pi-spi-display",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Downloads"
+                                    "label": "/home/jaca/Documents/pi-spi-display"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/jaca/Documents/C_kurs",
+                                        "path": "/home/jaca/Documents/C_kurs",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/home/jaca/Documents/C_kurs"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///run/media/jaca/D36D-22A4/C_kurs",
+                                        "path": "/run/media/jaca/D36D-22A4/C_kurs",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/run/media/jaca/D36D-22A4/C_kurs"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///run/media/jaca/D36D-22A4/C_kurs/Part%202",
+                                        "path": "/run/media/jaca/D36D-22A4/C_kurs/Part 2",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/run/media/jaca/D36D-22A4/C_kurs/Part 2"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/jaca/Documents/web-service-gin",
+                                        "path": "/home/jaca/Documents/web-service-gin",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/home/jaca/Documents/web-service-gin"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -221,111 +244,111 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/jaca/Documents/smogometr/README.md",
-                                        "path": "/home/jaca/Documents/smogometr/README.md",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Documents/smogometr/README.md"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/jaca/Documents/python_limit_log_size/logger_limiter.py",
-                                        "path": "/home/jaca/Documents/python_limit_log_size/logger_limiter.py",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Documents/python_limit_log_size/logger_limiter.py"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "path": "/c:/Users/ms_embedded/motor_controller/ZLAC8020D.py",
+                                        "path": "/home/admin/Documents/IT8951/examples/main.c",
                                         "scheme": "vscode-remote",
-                                        "authority": "ssh-remote+192.168.1.27"
+                                        "authority": "ssh-remote+192.168.1.60"
                                     },
                                     "enabled": true,
-                                    "label": "C:\\Users\\ms_embedded\\motor_controller\\ZLAC8020D.py"
+                                    "label": "~/Documents/IT8951/examples/main.c"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "path": "/c:/Users/ms_embedded/motorcontroller-master/test_app.py",
+                                        "path": "/home/admin/Documents/it8951e_c_driver/main.c",
                                         "scheme": "vscode-remote",
-                                        "authority": "ssh-remote+192.168.1.27"
+                                        "authority": "ssh-remote+192.168.1.60"
                                     },
                                     "enabled": true,
-                                    "label": "C:\\Users\\ms_embedded\\motorcontroller-master\\test_app.py"
+                                    "label": "~/Documents/it8951e_c_driver/main.c"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/jaca/Documents/log_reducer/logger_reducer.py",
-                                        "path": "/home/jaca/Documents/log_reducer/logger_reducer.py",
+                                        "external": "file:///home/jaca/Documents/python_screen_capture/pyscreze_demo.py",
+                                        "path": "/home/jaca/Documents/python_screen_capture/pyscreze_demo.py",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Documents/log_reducer/logger_reducer.py"
+                                    "label": "~/Documents/python_screen_capture/pyscreze_demo.py"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/jaca/Documents/log_short",
-                                        "path": "/home/jaca/Documents/log_short",
+                                        "external": "file:///home/jaca/Documents/python_screen_capture/screen_recorder.py",
+                                        "path": "/home/jaca/Documents/python_screen_capture/screen_recorder.py",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Documents/log_short"
+                                    "label": "~/Documents/python_screen_capture/screen_recorder.py"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/jaca/Documents/new_log",
-                                        "path": "/home/jaca/Documents/new_log",
+                                        "external": "file:///home/jaca/Documents/pw_screengrabber/.vscode/screen_recorder.py",
+                                        "path": "/home/jaca/Documents/pw_screengrabber/.vscode/screen_recorder.py",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Documents/new_log"
+                                    "label": "~/Documents/pw_screengrabber/.vscode/screen_recorder.py"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/jaca/Documents/logger_reducer.py",
-                                        "path": "/home/jaca/Documents/logger_reducer.py",
-                                        "scheme": "file"
+                                        "path": "/home/admin/Documents/it8951e_c_driver/pw_tutorial_5.c",
+                                        "scheme": "vscode-remote",
+                                        "authority": "ssh-remote+192.168.1.60"
                                     },
                                     "enabled": true,
-                                    "label": "~/Documents/logger_reducer.py"
+                                    "label": "~/Documents/it8951e_c_driver/pw_tutorial_5.c"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/jaca/Downloads/20240604_Report_wetdispenser.md",
-                                        "path": "/home/jaca/Downloads/20240604_Report_wetdispenser.md",
-                                        "scheme": "file"
+                                        "path": "/home/admin/Documents/it8951e_c_driver/pw_tutorial_3.c",
+                                        "scheme": "vscode-remote",
+                                        "authority": "ssh-remote+192.168.1.60"
                                     },
                                     "enabled": true,
-                                    "label": "~/Downloads/20240604_Report_wetdispenser.md"
+                                    "label": "~/Documents/it8951e_c_driver/pw_tutorial_3.c"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/jaca/Downloads/20240604_Report_wetdispenser.txt",
-                                        "path": "/home/jaca/Downloads/20240604_Report_wetdispenser.txt",
+                                        "path": "/home/admin/Documents/it8951e_c_driver/pw_tutorial_2.c",
+                                        "scheme": "vscode-remote",
+                                        "authority": "ssh-remote+192.168.1.60"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/it8951e_c_driver/pw_tutorial_2.c"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "path": "/home/admin/Documents/it8951e_c_driver/pw_tutorial_1.c",
+                                        "scheme": "vscode-remote",
+                                        "authority": "ssh-remote+192.168.1.60"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/it8951e_c_driver/pw_tutorial_1.c"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/jaca/Documents/pw_screengrabber/.vscode/tasks.json",
+                                        "path": "/home/jaca/Documents/pw_screengrabber/.vscode/tasks.json",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Downloads/20240604_Report_wetdispenser.txt"
+                                    "label": "~/Documents/pw_screengrabber/.vscode/tasks.json"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -404,8 +427,28 @@
                         "submenu": {
                             "items": [
                                 {
-                                    "id": "workbench.profiles.actions.manageProfiles",
-                                    "label": "&&Profiles"
+                                    "id": "submenuitem.Profiles",
+                                    "label": "Profile (json_pecet 2)",
+                                    "submenu": {
+                                        "items": [
+                                            {
+                                                "id": "workbench.profiles.actions.profileEntry.__default__profile__",
+                                                "label": "Default"
+                                            },
+                                            {
+                                                "id": "workbench.profiles.actions.profileEntry.14ea3f7d",
+                                                "label": "json_pecet 2",
+                                                "checked": true
+                                            },
+                                            {
+                                                "id": "vscode.menubar.separator"
+                                            },
+                                            {
+                                                "id": "workbench.profiles.actions.manageProfiles",
+                                                "label": "&&Profiles"
+                                            }
+                                        ]
+                                    }
                                 },
                                 {
                                     "id": "workbench.action.openSettings",
@@ -477,7 +520,11 @@
                     },
                     {
                         "id": "workbench.action.closeFolder",
-                        "label": "Close &&Folder"
+                        "label": "Close &&Workspace"
+                    },
+                    {
+                        "id": "workbench.action.remote.close",
+                        "label": "Close Re&&mote Connection"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -672,8 +719,7 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "&&Primary Side Bar",
-                                    "checked": true
+                                    "label": "&&Primary Side Bar"
                                 },
                                 {
                                     "id": "workbench.action.toggleAuxiliaryBar",
@@ -957,10 +1003,6 @@
                     {
                         "id": "workbench.view.extensions",
                         "label": "E&&xtensions"
-                    },
-                    {
-                        "id": "workbench.view.extension.test",
-                        "label": "T&&esting"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1395,6 +1437,10 @@
                     {
                         "id": "update.showCurrentReleaseNotes",
                         "label": "Show &&Release Notes"
+                    },
+                    {
+                        "id": "workbench.action.getStartedWithAccessibilityFeatures",
+                        "label": "Get Started with Accessibility Features"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1903,7 +1949,9 @@
             "titleBarBackground": "#282c34",
             "activityBarBackground": "#282c34",
             "sideBarBackground": "#282c34",
+            "sideBarBorder": "#23252c",
             "statusBarBackground": "#282c34",
+            "statusBarBorder": "#282c34",
             "statusBarNoFolderBackground": "#282c34"
         },
         "layoutInfo": {
@@ -1911,20 +1959,24 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 0,
-            "sideBarWidth": 300,
+            "sideBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/jaca/Documents/rc_excavator",
-            "backupPath": "/home/jaca/.config/Code/Backups/7d59e66d589e1f5cae54e0f170966fde",
+            "workspaceIdentifier": {
+                "id": "1c4fda47811bbd96ba97302c3306a154",
+                "configURIPath": "file:///home/jaca/.config/Code/Workspaces/1734532842329/workspace.json"
+            },
+            "backupPath": "/home/jaca/.config/Code/Backups/1c4fda47811bbd96ba97302c3306a154",
+            "remoteAuthority": "ssh-remote+192.168.1.60",
             "uiState": {
                 "mode": 1,
-                "x": 1282,
+                "x": 4,
                 "y": 4,
-                "width": 1274,
+                "width": 2552,
                 "height": 1432
             }
         },

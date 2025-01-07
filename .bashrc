@@ -17,6 +17,7 @@ export EDITOR=micro
 
 export PATH=$PATH:"/home/jaca/.cargo/bin"
 export PATH=$PATH:"$HOME/.local/bin/"
+export PATH=$PATH:"$/usr/local/go/bin"
 
 eval "$(starship init bash)"
 export STARSHIP_CONFIG=$HOME/.config/starship/starship.toml

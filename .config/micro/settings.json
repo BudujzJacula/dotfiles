@@ -1,5 +1,5 @@
 {
     "clipboard": "terminal",
     "colorscheme": "solarized",
-    "lsp.server": "markdown=deno lsp,json=deno lsp,jsonc=deno lsp,rust=rls,lua=lua-lsp"
+    "lsp.server": "markdown=deno lsp,json=deno lsp,jsonc=deno lsp,rust=rls,lua=lua-lsp,go=gopls"
 }
