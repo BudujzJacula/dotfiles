@@ -90,3 +90,5 @@ bindkey  "^[[3~"  delete-char
 
 export PATH=$PATH:"/usr/local/go/bin"
 export PATH=$PATH:"/home/jaca/.cargo/bin"
+
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=200'
