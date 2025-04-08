@@ -61,6 +61,8 @@ alias ssh="TERM=xterm-256color ssh"
 alias zed='/home/jaca/.local/bin/zed'
 alias arduino='/home/jaca/Documents/arduino-ide_2.3.3_Linux_64bit.AppImage > /dev/null 2>&1 & disown'
 alias logic='/bin/saleae-logic2 > /dev/null 2>&1 & disown'
+alias pbcopy='xclip -selection clipboard'
+alias pbpaste='xclip -selection clipboard -o'
 
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
@@ -90,7 +92,13 @@ bindkey  "^[[3~"  delete-char
 
 export PATH=$PATH:"/usr/local/go/bin"
 export PATH=$PATH:"/home/jaca/.cargo/bin"
+export PATH=$PATH:"/home/jaca/.nimble/bin"
+export PATH=$PATH:"/home/jaca/Documents/Notes"
 
 export EDITOR=micro
 
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=200'
+
+if [ -f "$XDG_RUNTIME_DIR/ssh-agent.env" ]; then
+	source "$XDG_RUNTIME_DIR/ssh-agent.env"
+fi
