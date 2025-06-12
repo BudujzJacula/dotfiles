@@ -1,20 +1,2 @@
-.config/Code/logs/
-.config/Code/User
-.config/Code/GPUCache
-.config/Code/CachedData
-.config/Code/CachedExtensionVSIXs
-.config/Code/CachedProfileData
-.config/Code/Cache
-.config/Code/CachedConfigurations
-.config/Code/CachedProfilesData
-.config/Code/Code Cache
-.config/Code/Cookies
-.config/Code/Crashpad
-.config/Code/DawnCache
-.config/Code/WebStorage
-.config/Code/Local Storage
-.config/Code/Network Persistent State
-.config/Code/Service Worker
-.config/Code/Session Storage
-.config/Code/TransportSecurity
 .config/micro/backups
+.config/Code/

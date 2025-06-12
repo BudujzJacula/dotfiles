@@ -1,5 +1,5 @@
 [Activities][LastVirtualDesktop]
-7a3775f2-8d31-4b78-a362-b1b3fc7ba820=c8a99aac-c6f2-4893-9ab2-00c11fe6eb34
+7a3775f2-8d31-4b78-a362-b1b3fc7ba820=31f3ac1f-4190-4435-aeda-50ace85cfc3b
 
 [Desktops]
 Id_1=c8a99aac-c6f2-4893-9ab2-00c11fe6eb34
@@ -14,6 +14,8 @@ poloniumEnabled=true
 
 [Script-polonium]
 EngineType=1
+FilterCaption=kicad
+FilterProcess=krunner, yakuake, kded, polkit, plasmashell, kicad
 InsertionPoint=1
 KeepTiledBelow=false
 TilePopups=true
