@@ -1,4 +1,8 @@
 {
-    "window.menuBarVisibility": "toggle",
-    "cmake.showOptionsMovedNotification": false
+    "cmake.showOptionsMovedNotification": false,
+    "workbench.settings.applyToAllProfiles": [
+        "nim.lsp.path"
+    ],
+    "nim.lsp.path": "~/.nimble/bin/nimlsp",
+    "window.menuBarVisibility": "compact"
 }

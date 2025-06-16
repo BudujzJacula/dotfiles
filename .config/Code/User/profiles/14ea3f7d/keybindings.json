@@ -41,5 +41,10 @@
     {
         "key": "alt+g",
         "command": "-relative-goto.goto"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "-github.copilot.generate",
+        "when": "editorTextFocus && github.copilot.activated && !commentEditorFocused"
     }
 ]

@@ -57,13 +57,10 @@
     "[python]": {
         "editor.formatOnType": true
     },
-    "editor.inlineSuggest.enabled": true,
     "security.workspace.trust.untrustedFiles": "open",
     "explorer.confirmDelete": false,
     "editor.lineNumbers": "relative",
     "workbench.quickOpen.closeOnFocusLost": false,
-    "terminal.integrated.fontFamily": "monospace",
-    "workbench.sideBar.location": "right",
     "platformio-ide.toolbar": [
 
         {
@@ -92,7 +89,7 @@
         "comments": "on",
         "strings": "on"
     },
-    "workbench.editor.editorActionsLocation": "default",
+    "workbench.editor.editorActionsLocation": "hidden",
     "cloudcode.duetAI.project": "balancing-robot-408121",
     "editor.guides.indentation": false,
     "editor.renderWhitespace": "none",
@@ -104,7 +101,7 @@
     "workbench.layoutControl.enabled": false,
     "window.commandCenter": false,
     "window.menuBarVisibility": "toggle",
-    "workbench.colorTheme": "One Dark Pro Flat",
+    "workbench.colorTheme": "Ayu Mirage",
     "editor.cursorBlinking": "solid",
     "editor.cursorSmoothCaretAnimation": "on",
     "workbench.editor.showTabs": "none",
@@ -119,5 +116,79 @@
         "editor.suggest.insertMode": "replace"
     },
     "C_Cpp.loggingLevel": "Debug",
-    "makefile.configureOnOpen": true
+    "makefile.configureOnOpen": true,
+    "nim.formatOnSave": true,
+    "oneDarkPro.bold": true,
+    "files.associations": {
+        "*.nim": "nim"
+    },
+    "nim.lsp.path": "/home/jaca/.nimble/bin/nimlsp",
+    "nimlangserver.trace.server": "messages",
+    "editor.inlineSuggest.syntaxHighlightingEnabled": true,
+    "nim.logNimsuggest": true,
+    "editor.fontFamily": "Monospace",
+    "editor.fontLigatures": false,
+    "terminal.integrated.fontFamily": "monospace",
+    "workbench.sideBar.location": "right",
+    "github.copilot.editor.enableAutoCompletions": false,
+    "github.copilot.chat.copilotDebugCommand.enabled": false,
+    "python.createEnvironment.trigger": "off",
+    "better-comments.highlightPlainText": true,
+    "better-comments.tags": [
+
+        {
+            "tag": "!",
+            "color": "#FF2D00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "?",
+            "color": "#3498DB",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "//",
+            "color": "#474747",
+            "strikethrough": true,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "todo",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "*",
+            "color": "#98C379",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "tst",
+            "color": "#FF00FF",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        }
+    ]
 }

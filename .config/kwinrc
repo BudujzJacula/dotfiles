@@ -28,7 +28,7 @@ padding=4
 tiles={"layoutDirection":"horizontal","tiles":[]}
 
 [Tiling][1adfa589-9bb1-524f-af8d-727f721ed9a3]
-tiles={"layoutDirection":"horizontal","tiles":[{"width":0.5},{"width":0.5}]}
+tiles={"layoutDirection":"vertical","tiles":[]}
 
 [Tiling][3294c798-90e7-51ab-953d-558fb261a53f]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.5},{"width":0.5}]}

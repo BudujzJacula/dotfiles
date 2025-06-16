@@ -1,3 +1,3 @@
-2025/01/08-15:04:03.076 4a13 Reusing MANIFEST /home/jaca/.config/Code/Local Storage/leveldb/MANIFEST-000001
-2025/01/08-15:04:03.093 4a13 Recovering log #3
-2025/01/08-15:04:03.094 4a13 Reusing old log /home/jaca/.config/Code/Local Storage/leveldb/000003.log 
+2025/05/28-12:14:05.458 33e1 Reusing MANIFEST /home/jaca/.config/Code/Local Storage/leveldb/MANIFEST-000001
+2025/05/28-12:14:05.475 33e1 Recovering log #3
+2025/05/28-12:14:05.476 33e1 Reusing old log /home/jaca/.config/Code/Local Storage/leveldb/000003.log 

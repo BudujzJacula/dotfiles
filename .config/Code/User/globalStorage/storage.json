@@ -4,6 +4,19 @@
         "workspaces": {
             "file:///home/jaca/Documents/valves_testing_poc": "__default__profile__",
             "file:///home/jaca/.config/Code/Workspaces/1734354534302/workspace.json": "__default__profile__",
+            "file:///home/jaca/.config/Code/Workspaces/1736509801486/workspace.json": "__default__profile__",
+            "file:///home/jaca/.config/Code/Workspaces/1736509731718/workspace.json": "__default__profile__",
+            "file:///home/jaca/.config/Code/Workspaces/1738154858348/workspace.json": "__default__profile__",
+            "file:///home/jaca/.config/Code/Workspaces/1738313846153/workspace.json": "__default__profile__",
+            "file:///home/jaca/.config/Code/Workspaces/1738750368096/workspace.json": "__default__profile__",
+            "file:///home/jaca/.config/Code/Workspaces/1738750388296/workspace.json": "__default__profile__",
+            "file:///home/jaca/.config/Code/Workspaces/1738838528489/workspace.json": "__default__profile__",
+            "file:///home/jaca/.config/Code/Workspaces/1739182841931/workspace.json": "__default__profile__",
+            "file:///home/jaca/.config/Code/Workspaces/1739182807660/workspace.json": "__default__profile__",
+            "file:///home/jaca/.config/Code/Workspaces/1739524253443/workspace.json": "__default__profile__",
+            "file:///home/jaca/.config/Code/Workspaces/1739787846619/workspace.json": "__default__profile__",
+            "file:///home/jaca/.config/Code/Workspaces/1739882992294/workspace.json": "__default__profile__",
+            "file:///home/jaca/.config/Code/Workspaces/1748428130034/workspace.json": "__default__profile__",
             "file:///home/jaca/Downloads/mindsailors-valves_testing_poc-05b4e4d6f596": "14ea3f7d",
             "file:///home/jaca/Downloads/mindsailors-valves_testing_poc-05b4e4d6f596/valves_testing_poc.code-workspace": "14ea3f7d",
             "file:///home/jaca/Documents/valves_testing_poc/valves_testing_poc.code-workspace": "14ea3f7d",
@@ -35,7 +48,20 @@
             "file:///home/jaca/Documents/pi-spi-display/src": "14ea3f7d",
             "vscode-remote://ssh-remote%2B192.168.1.60/home/admin/Documents/IT8951": "14ea3f7d",
             "file:///home/jaca/.config/Code/Workspaces/1734532842329/workspace.json": "14ea3f7d",
-            "file:///home/jaca": "14ea3f7d"
+            "file:///home/jaca": "14ea3f7d",
+            "vscode-remote://ssh-remote%2B192.168.1.53/home/jaca/IT8951": "14ea3f7d",
+            "file:///home/jaca/Documents/IT8951_python/IT8951": "14ea3f7d",
+            "vscode-remote://ssh-remote%2B192.168.1.60/home/admin/IT8951": "14ea3f7d",
+            "file:///home/jaca/dotfiles/.config/nvim": "14ea3f7d",
+            "vscode-remote://ssh-remote%2B192.168.1.60/home/admin/Documents/it8951e_c_driver/it8951e_c_driver.code-workspace": "14ea3f7d",
+            "file:///home/jaca/Documents/NIM/note": "14ea3f7d",
+            "file:///home/jaca/workspace.code-workspace": "14ea3f7d",
+            "file:///home/jaca/Documents/note_go": "14ea3f7d",
+            "vscode-remote://ssh-remote%2B192.168.1.60/home/admin/IT8951_python/IT8951/test/integration/IT8951_python.code-workspace": "14ea3f7d",
+            "file:///home/jaca/Documents/gui_mockup": "14ea3f7d",
+            "vscode-remote://ssh-remote%2B192.168.1.60/home/admin/IT8951_python/IT8951": "14ea3f7d",
+            "vscode-remote://ssh-remote%2B192.168.1.60/home/admin": "14ea3f7d",
+            "file:///home/jaca/Documents/zmk-config-json_corne_low_profile": "14ea3f7d"
         },
         "emptyWindows": {}
     },
@@ -44,11 +70,15 @@
     "telemetry.machineId": "7d7a3a25671c20c4b66ed0639fe489607d822c8cde53b67cdb7e6b021872bc53",
     "telemetry.devDeviceId": "f9e15154-561e-4d58-b95e-436f6cca53eb",
     "backupWorkspaces": {
-        "workspaces": [],
+        "workspaces": [
+            {
+                "id": "3af3b05e6d4625a31f50e40e878f919a",
+                "configURIPath": "file:///home/jaca/.config/Code/Workspaces/1748428130034/workspace.json"
+            }
+        ],
         "folders": [
             {
-                "folderUri": "vscode-remote://ssh-remote%2B192.168.1.60/home/admin/Documents/IT8951",
-                "remoteAuthority": "ssh-remote+192.168.1.60"
+                "folderUri": "file:///home/jaca/Documents/zmk-config-json_corne_low_profile"
             }
         ],
         "emptyWindows": []
@@ -124,6 +154,99 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
+                                        "path": "/home/jaca/IT8951",
+                                        "scheme": "vscode-remote",
+                                        "authority": "ssh-remote+192.168.1.53"
+                                    },
+                                    "remoteAuthority": "ssh-remote+192.168.1.53",
+                                    "enabled": true,
+                                    "label": "~/IT8951 [SSH: 192.168.1.53]"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "path": "/home/admin/Documents/it8951e_c_driver",
+                                        "scheme": "vscode-remote",
+                                        "authority": "ssh-remote+192.168.1.60"
+                                    },
+                                    "remoteAuthority": "ssh-remote+192.168.1.60",
+                                    "enabled": true,
+                                    "label": "~/Documents/it8951e_c_driver [SSH: 192.168.1.60]"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/jaca/Documents/NIM/note",
+                                        "path": "/home/jaca/Documents/NIM/note",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/home/jaca/Documents/NIM/note"
+                                },
+                                {
+                                    "id": "openRecentWorkspace",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/jaca/workspace.code-workspace",
+                                        "path": "/home/jaca/workspace.code-workspace",
+                                        "scheme": "file"
+                                    },
+                                    "remoteAuthority": "ssh-remote+192.168.1.60",
+                                    "enabled": true,
+                                    "label": "~/workspace (Workspace)"
+                                },
+                                {
+                                    "id": "openRecentWorkspace",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "path": "/home/admin/Documents/it8951e_c_driver/it8951e_c_driver.code-workspace",
+                                        "scheme": "vscode-remote",
+                                        "authority": "ssh-remote+192.168.1.60"
+                                    },
+                                    "remoteAuthority": "ssh-remote+192.168.1.60",
+                                    "enabled": true,
+                                    "label": "~/Documents/it8951e_c_driver/it8951e_c_driver (Workspace) [SSH: 192.168.1.60]"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "path": "/home/admin/IT8951",
+                                        "scheme": "vscode-remote",
+                                        "authority": "ssh-remote+192.168.1.60"
+                                    },
+                                    "remoteAuthority": "ssh-remote+192.168.1.60",
+                                    "enabled": true,
+                                    "label": "~/IT8951 [SSH: 192.168.1.60]"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/jaca/dotfiles/.config/nvim",
+                                        "path": "/home/jaca/dotfiles/.config/nvim",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/home/jaca/dotfiles/.config/nvim"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/jaca/Documents/IT8951_python/IT8951",
+                                        "path": "/home/jaca/Documents/IT8951_python/IT8951",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/home/jaca/Documents/IT8951_python/IT8951"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "path": "/home/admin/Documents/IT8951",
                                         "scheme": "vscode-remote",
                                         "authority": "ssh-remote+192.168.1.60"
@@ -144,107 +267,73 @@
                                     "label": "/home/jaca"
                                 },
                                 {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/jaca/Documents/pi-spi-display/src",
-                                        "path": "/home/jaca/Documents/pi-spi-display/src",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "/home/jaca/Documents/pi-spi-display/src"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "path": "/home/admin/Documents/it8951e_c_driver",
-                                        "scheme": "vscode-remote",
-                                        "authority": "ssh-remote+192.168.1.60"
-                                    },
-                                    "remoteAuthority": "ssh-remote+192.168.1.60",
-                                    "enabled": true,
-                                    "label": "~/Documents/it8951e_c_driver [SSH: 192.168.1.60]"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/jaca/Documents/pw_screengrabber",
-                                        "path": "/home/jaca/Documents/pw_screengrabber",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "/home/jaca/Documents/pw_screengrabber"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/jaca/Documents/pi-spi-display",
-                                        "path": "/home/jaca/Documents/pi-spi-display",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "/home/jaca/Documents/pi-spi-display"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/jaca/Documents/C_kurs",
-                                        "path": "/home/jaca/Documents/C_kurs",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "/home/jaca/Documents/C_kurs"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///run/media/jaca/D36D-22A4/C_kurs",
-                                        "path": "/run/media/jaca/D36D-22A4/C_kurs",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "/run/media/jaca/D36D-22A4/C_kurs"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///run/media/jaca/D36D-22A4/C_kurs/Part%202",
-                                        "path": "/run/media/jaca/D36D-22A4/C_kurs/Part 2",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "/run/media/jaca/D36D-22A4/C_kurs/Part 2"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/jaca/Documents/web-service-gin",
-                                        "path": "/home/jaca/Documents/web-service-gin",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "/home/jaca/Documents/web-service-gin"
-                                },
-                                {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "path": "/home/admin/Documents/it8951e_c_driver/main.c",
+                                        "path": "/home/admin/Documents/it8951e_c_driver/stb_image_resize.h",
                                         "scheme": "vscode-remote",
                                         "authority": "ssh-remote+192.168.1.60"
                                     },
                                     "enabled": true,
-                                    "label": "~/Documents/it8951e_c_driver/main.c"
+                                    "label": "~/Documents/it8951e_c_driver/stb_image_resize.h [SSH: 192.168.1.60]"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/jaca/Documents/NIM/note/myFile.txt",
+                                        "path": "/home/jaca/Documents/NIM/note/myFile.txt",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/NIM/note/myFile.txt"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/jaca/Documents/NIM/note/readme.txt",
+                                        "path": "/home/jaca/Documents/NIM/note/readme.txt",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/NIM/note/readme.txt"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/jaca/Documents/Notes/20250128_note_taking_app_ideas.md",
+                                        "path": "/home/jaca/Documents/Notes/20250128_note_taking_app_ideas.md",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/home/jaca/Documents/Notes/20250128_note_taking_app_ideas.md"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/jaca/Documents/NIM/hello_world.nim",
+                                        "path": "/home/jaca/Documents/NIM/hello_world.nim",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/home/jaca/Documents/NIM/hello_world.nim"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "path": "/home/jaca/IT8951/screenshoter_mss.py",
+                                        "scheme": "vscode-remote",
+                                        "authority": "ssh-remote+192.168.1.53"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/IT8951/screenshoter_mss.py"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -291,61 +380,6 @@
                                     "label": "~/Documents/it8951e_c_driver/pw_tutorial_5.c"
                                 },
                                 {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "path": "/home/admin/Documents/it8951e_c_driver/pw_tutorial_3.c",
-                                        "scheme": "vscode-remote",
-                                        "authority": "ssh-remote+192.168.1.60"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Documents/it8951e_c_driver/pw_tutorial_3.c"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "path": "/home/admin/Documents/it8951e_c_driver/pw_tutorial_2.c",
-                                        "scheme": "vscode-remote",
-                                        "authority": "ssh-remote+192.168.1.60"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Documents/it8951e_c_driver/pw_tutorial_2.c"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "path": "/home/admin/Documents/it8951e_c_driver/pw_tutorial_1.c",
-                                        "scheme": "vscode-remote",
-                                        "authority": "ssh-remote+192.168.1.60"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Documents/it8951e_c_driver/pw_tutorial_1.c"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/jaca/Documents/pw_screengrabber/.vscode/tasks.json",
-                                        "path": "/home/jaca/Documents/pw_screengrabber/.vscode/tasks.json",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Documents/pw_screengrabber/.vscode/tasks.json"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "path": "/home/admin/Documents/it8951e_c_driver/it8951.c",
-                                        "scheme": "vscode-remote",
-                                        "authority": "ssh-remote+192.168.1.60"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Documents/it8951e_c_driver/it8951.c"
-                                },
-                                {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
@@ -382,13 +416,11 @@
                     },
                     {
                         "id": "workbench.action.files.save",
-                        "label": "&&Save",
-                        "enabled": false
+                        "label": "&&Save"
                     },
                     {
                         "id": "workbench.action.files.saveAs",
-                        "label": "Save &&As...",
-                        "enabled": false
+                        "label": "Save &&As..."
                     },
                     {
                         "id": "saveAll",
@@ -509,13 +541,11 @@
                     },
                     {
                         "id": "workbench.action.files.revert",
-                        "label": "Re&&vert File",
-                        "enabled": false
+                        "label": "Re&&vert File"
                     },
                     {
                         "id": "workbench.action.closeActiveEditor",
-                        "label": "&&Close Editor",
-                        "enabled": false
+                        "label": "&&Close Editor"
                     },
                     {
                         "id": "workbench.action.closeFolder",
@@ -732,8 +762,7 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "&&Panel",
-                                    "checked": true
+                                    "label": "&&Panel"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -1009,12 +1038,27 @@
                         "id": "vscode.menubar.separator"
                     },
                     {
+                        "id": "workbench.panel.chat",
+                        "label": "&&Chat"
+                    },
+                    {
+                        "id": "workbench.panel.chatEditing",
+                        "label": "Copilot Ed&&its"
+                    },
+                    {
+                        "id": "vscode.menubar.separator"
+                    },
+                    {
                         "id": "workbench.actions.view.problems",
                         "label": "&&Problems"
                     },
                     {
                         "id": "workbench.action.output.toggleOutput",
                         "label": "&&Output"
+                    },
+                    {
+                        "id": "workbench.debug.action.toggleRepl",
+                        "label": "De&&bug Console"
                     },
                     {
                         "id": "workbench.action.terminal.toggleTerminal",
@@ -1025,8 +1069,7 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap",
-                        "enabled": false
+                        "label": "&&Word Wrap"
                     }
                 ]
             },
@@ -1242,6 +1285,116 @@
             "Run": {
                 "items": [
                     {
+                        "id": "workbench.action.debug.start",
+                        "label": "&&Start Debugging"
+                    },
+                    {
+                        "id": "workbench.action.debug.run",
+                        "label": "Run &&Without Debugging"
+                    },
+                    {
+                        "id": "workbench.action.debug.stop",
+                        "label": "&&Stop Debugging",
+                        "enabled": false
+                    },
+                    {
+                        "id": "workbench.action.debug.restart",
+                        "label": "&&Restart Debugging",
+                        "enabled": false
+                    },
+                    {
+                        "id": "vscode.menubar.separator"
+                    },
+                    {
+                        "id": "workbench.action.debug.configure",
+                        "label": "Open &&Configurations",
+                        "enabled": false
+                    },
+                    {
+                        "id": "debug.addConfiguration",
+                        "label": "A&&dd Configuration..."
+                    },
+                    {
+                        "id": "vscode.menubar.separator"
+                    },
+                    {
+                        "id": "workbench.action.debug.stepOver",
+                        "label": "Step &&Over",
+                        "enabled": false
+                    },
+                    {
+                        "id": "workbench.action.debug.stepInto",
+                        "label": "Step &&Into",
+                        "enabled": false
+                    },
+                    {
+                        "id": "workbench.action.debug.stepOut",
+                        "label": "Step O&&ut",
+                        "enabled": false
+                    },
+                    {
+                        "id": "workbench.action.debug.continue",
+                        "label": "&&Continue",
+                        "enabled": false
+                    },
+                    {
+                        "id": "vscode.menubar.separator"
+                    },
+                    {
+                        "id": "editor.debug.action.toggleBreakpoint",
+                        "label": "Toggle &&Breakpoint"
+                    },
+                    {
+                        "id": "submenuitem.MenubarNewBreakpointMenu",
+                        "label": "&&New Breakpoint",
+                        "submenu": {
+                            "items": [
+                                {
+                                    "id": "editor.debug.action.conditionalBreakpoint",
+                                    "label": "&&Conditional Breakpoint..."
+                                },
+                                {
+                                    "id": "editor.debug.action.editBreakpoint",
+                                    "label": "&&Edit Breakpoint"
+                                },
+                                {
+                                    "id": "editor.debug.action.toggleInlineBreakpoint",
+                                    "label": "Inline Breakp&&oint"
+                                },
+                                {
+                                    "id": "workbench.debug.viewlet.action.addFunctionBreakpointAction",
+                                    "label": "&&Function Breakpoint..."
+                                },
+                                {
+                                    "id": "editor.debug.action.addLogPoint",
+                                    "label": "&&Logpoint..."
+                                },
+                                {
+                                    "id": "editor.debug.action.triggerByBreakpoint",
+                                    "label": "&&Triggered Breakpoint..."
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "vscode.menubar.separator"
+                    },
+                    {
+                        "id": "workbench.debug.viewlet.action.enableAllBreakpoints",
+                        "label": "&&Enable All Breakpoints"
+                    },
+                    {
+                        "id": "workbench.debug.viewlet.action.disableAllBreakpoints",
+                        "label": "Disable A&&ll Breakpoints"
+                    },
+                    {
+                        "id": "workbench.debug.viewlet.action.removeAllBreakpoints",
+                        "label": "Remove &&All Breakpoints"
+                    },
+                    {
+                        "id": "vscode.menubar.separator"
+                    },
+                    {
                         "id": "debug.installAdditionalDebuggers",
                         "label": "&&Install Additional Debuggers..."
                     }
@@ -1255,8 +1408,7 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal",
-                        "enabled": false
+                        "label": "&&Split Terminal"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1634,6 +1786,14 @@
                 "label": "Ctrl+Shift+D",
                 "userSettingsLabel": "ctrl+shift+d"
             },
+            "workbench.panel.chat": {
+                "label": "Ctrl+Alt+I",
+                "userSettingsLabel": "ctrl+alt+i"
+            },
+            "workbench.panel.chatEditing": {
+                "label": "Ctrl+Shift+Alt+I",
+                "userSettingsLabel": "ctrl+shift+alt+i"
+            },
             "workbench.actions.view.problems": {
                 "label": "Ctrl+Shift+M",
                 "userSettingsLabel": "ctrl+shift+m"
@@ -1642,6 +1802,10 @@
                 "label": "Ctrl+K Ctrl+H",
                 "isNative": false,
                 "userSettingsLabel": "ctrl+k ctrl+h"
+            },
+            "workbench.debug.action.toggleRepl": {
+                "label": "Ctrl+Shift+Y",
+                "userSettingsLabel": "ctrl+shift+y"
             },
             "workbench.action.terminal.toggleTerminal": {
                 "label": "Ctrl+`",
@@ -1766,6 +1930,46 @@
                 "label": "Shift+Alt+F3",
                 "userSettingsLabel": "shift+alt+f3"
             },
+            "workbench.action.debug.start": {
+                "label": "F5",
+                "userSettingsLabel": "f5"
+            },
+            "workbench.action.debug.run": {
+                "label": "Ctrl+F5",
+                "userSettingsLabel": "ctrl+f5"
+            },
+            "workbench.action.debug.stop": {
+                "label": "Shift+F5",
+                "userSettingsLabel": "shift+f5"
+            },
+            "workbench.action.debug.restart": {
+                "label": "Ctrl+Shift+F5",
+                "userSettingsLabel": "ctrl+shift+f5"
+            },
+            "workbench.action.debug.stepOver": {
+                "label": "F10",
+                "userSettingsLabel": "f10"
+            },
+            "workbench.action.debug.stepInto": {
+                "label": "F11",
+                "userSettingsLabel": "f11"
+            },
+            "workbench.action.debug.stepOut": {
+                "label": "Shift+F11",
+                "userSettingsLabel": "shift+f11"
+            },
+            "workbench.action.debug.continue": {
+                "label": "F5",
+                "userSettingsLabel": "f5"
+            },
+            "editor.debug.action.toggleBreakpoint": {
+                "label": "F9",
+                "userSettingsLabel": "f9"
+            },
+            "editor.debug.action.toggleInlineBreakpoint": {
+                "label": "Shift+F9",
+                "userSettingsLabel": "shift+f9"
+            },
             "workbench.action.terminal.new": {
                 "label": "Ctrl+Shift+`",
                 "userSettingsLabel": "ctrl+shift+`"
@@ -1786,37 +1990,39 @@
         }
     },
     "theme": "vs-dark",
-    "themeBackground": "#282c34",
+    "themeBackground": "#1f2430",
     "windowSplash": {
         "zoomLevel": 0,
         "baseTheme": "vs-dark",
         "colorInfo": {
-            "foreground": "#cccccc",
-            "background": "#282c34",
-            "editorBackground": "#282c34",
-            "titleBarBackground": "#282c34",
-            "activityBarBackground": "#282c34",
-            "sideBarBackground": "#282c34",
-            "sideBarBorder": "#23252c",
-            "statusBarBackground": "#282c34",
-            "statusBarBorder": "#282c34",
-            "statusBarNoFolderBackground": "#282c34"
+            "foreground": "#707a8c",
+            "background": "#1f2430",
+            "editorBackground": "#1f2430",
+            "titleBarBackground": "#1f2430",
+            "titleBarBorder": "#1f2430",
+            "activityBarBackground": "#1f2430",
+            "activityBarBorder": "#1f2430",
+            "sideBarBackground": "#1f2430",
+            "sideBarBorder": "#1f2430",
+            "statusBarBackground": "#1f2430",
+            "statusBarBorder": "#1f2430",
+            "statusBarNoFolderBackground": "#1c212b"
         },
         "layoutInfo": {
             "sideBarSide": "right",
             "editorPartMinWidth": 220,
-            "titleBarHeight": 0,
+            "titleBarHeight": 30,
             "activityBarWidth": 0,
-            "sideBarWidth": 601,
+            "sideBarWidth": 493,
+            "auxiliarySideBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "vscode-remote://ssh-remote%2B192.168.1.60/home/admin/Documents/IT8951",
-            "backupPath": "/home/jaca/.config/Code/Backups/27ee29be8b352a0f84c52a58965ee684",
-            "remoteAuthority": "ssh-remote+192.168.1.60",
+            "folder": "file:///home/jaca/Documents/zmk-config-json_corne_low_profile",
+            "backupPath": "/home/jaca/.config/Code/Backups/4e3140248bf744cffa971be6592dcddf",
             "uiState": {
                 "mode": 1,
                 "x": 4,
@@ -1832,5 +2038,35 @@
             "location": "14ea3f7d",
             "name": "json_pecet 2"
         }
-    ]
+    ],
+    "window.titleBarStyleOverride": "custom",
+    "windowControlHeight": 35,
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "auxiliarySideBarWidth": [
+                604,
+                []
+            ],
+            "sideBarWidth": 493,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "a36940dace25291df0cb70492dd89bfc": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": false
+                },
+                "bfb224d0e086caf4e3edc13656153c5f": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "3af3b05e6d4625a31f50e40e878f919a": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "188e1c4922cbb44451eedfabbf48846f": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
 }
