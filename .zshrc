@@ -95,7 +95,8 @@ export PATH=$PATH:"/home/jaca/.cargo/bin"
 export PATH=$PATH:"/home/jaca/.nimble/bin"
 export PATH=$PATH:"/home/jaca/Documents/Notes"
 
-export EDITOR=vim
+export EDITOR=nvim
+export VISUAL=nvim
 
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=200'
 
